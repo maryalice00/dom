@@ -1,0 +1,29 @@
+#app {
+    max-width: 600px;
+    margin: 50px auto;
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border: 1px solid hotpink;
+    margin: 8px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+li.completed {
+    text-decoration: line-through;
+}
+
+button {
+    margin-left: 10px;
+}
+ body {
+    background-color: rgb(159, 209, 209);
+ }
